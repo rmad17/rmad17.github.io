@@ -1,0 +1,42 @@
+.fa-heart{
+  color: #CD2626;
+}
+.love{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: normal;
+  position: relative;
+  min-height: 7rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.footer-align{
+  position: absolute;
+  bottom: 0;
+}
+.social{
+  text-align: inherit;
+  font-size: xx-large;
+}
+.circular-image {
+  float: left;
+  display: block;
+  margin-right: 5%;
+  width: 7%;
+  height: auto;
+  background: url(/public/images/me.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+.circular-image img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
