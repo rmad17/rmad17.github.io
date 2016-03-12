@@ -101,8 +101,10 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
+  align-content: center;
   margin-top: 0;
   margin-bottom: 0;
+  margin: 0.5rem;
   color: #505050;
 }
 .masthead-title a {
