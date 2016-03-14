@@ -40,4 +40,7 @@
 .circular-image img {
 	opacity: 0;
 	filter: alpha(opacity=0);
-	}
+}
+.comments{
+ margin-top: 1rem;
+}
