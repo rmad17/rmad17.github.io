@@ -193,16 +193,38 @@
     
   </ul>
 </div>
-<div id="comments">
-
-</div>
-
 <div class="love">
   <div class="footer-align">
     Made with <i class="fa fa-heart"></i> by <a href="https://github.com/rmad17">rmad17</a> using <a href="https://jekyllrb.com">Jekyll</a>
   </div>
 </div>
 
+<div id="comments">
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
+        
+        var disqus_config = function () {
+            //var disqus_developer = 1; // Comment out when the site is live
+            var disqus_shortname = 'rmad17';
+            this.page.url = "http://souravbasu.com/2014/01/02/introducing-lanyon/"; //PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = "/2014/01/02/introducing-lanyon"; //PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            
+            s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
 
 
       </div>
