@@ -41,3 +41,11 @@
 .comments{
  margin-top: 1rem;
 }
+.center-align-content{
+ text-align: center;
+}
+.center-italics-content{
+ text-align: center;
+ font-style: italic;
+ font-size: 0.9em;
+}
