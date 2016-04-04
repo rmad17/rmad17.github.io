@@ -4,7 +4,7 @@
  <title>Tech Karma</title>
  <link href="http://souravbasu.com/atom.xml" rel="self"/>
  <link href="http://souravbasu.com/"/>
- <updated>2016-04-04T19:44:21+05:30</updated>
+ <updated>2016-04-04T20:02:02+05:30</updated>
  <id>http://souravbasu.com</id>
  <author>
    <name>Sourav Basu</name>
@@ -20,7 +20,7 @@
    <content type="html">&lt;h4&gt;How it all started:&lt;/h4&gt;
 
 &lt;p&gt;Few days ago I wanted to learn &lt;a href=&quot;https://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;. So I decided to start on building a small app with &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt; &lt;a href=&quot;https://github.com/HackerNews/API&quot;&gt;APIs&lt;/a&gt;.
-So I started with the &lt;a href=&quot;https://github.com/angular/angular-seed&quot;&gt;Andular Seed Project&lt;/a&gt;. I read a little bit in the angularjs documentation to get a little idea.&lt;/p&gt;
+So I started with the &lt;a href=&quot;https://github.com/angular/angular-seed&quot;&gt;Angular Seed Project&lt;/a&gt;. I read a little bit in the angularjs documentation to get a little idea.&lt;/p&gt;
 
 &lt;h4&gt;Objective:&lt;/h4&gt;
 
