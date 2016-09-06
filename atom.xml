@@ -4,13 +4,81 @@
  <title>Tech Karma</title>
  <link href="http://souravbasu.com/atom.xml" rel="self"/>
  <link href="http://souravbasu.com/"/>
- <updated>2016-04-04T20:02:02+05:30</updated>
+ <updated>2016-09-06T18:31:49+05:30</updated>
  <id>http://souravbasu.com</id>
  <author>
    <name>Sourav Basu</name>
    <email>souravbasu17@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>How I Automated My Django Settings Configuration</title>
+   <link href="http://souravbasu.com/2016/09/06/how-i-automated-my-django-settings-configuration/"/>
+   <updated>2016-09-06T00:00:00+05:30</updated>
+   <id>http://souravbasu.com/2016/09/06/how-i-automated-my-django-settings-configuration</id>
+   <content type="html">&lt;p&gt;Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local_settings.py and local_settings_sample.py like many of you. 
+For those not familiar with the &lt;code&gt;local_settings.py&lt;/code&gt; concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.&lt;/p&gt;
+
+&lt;p&gt;My &lt;code&gt;.gitignore&lt;/code&gt; generally looks something like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-viml&quot; data-lang=&quot;viml&quot;&gt;*&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;pyc
+*&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;swp
+*&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;sqlite3
+local_settings&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;py&lt;/span&gt;
+*_settings&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;py&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The first one is straightforward. The second one is for my files opened in vim. The third one is something I do not generally need very often but still as a precaution to accidentally commiting someday I add it. Git ignoring local_settings.py is something many of you do. The last one is one of my own ideas. The idea is say you have two django apps. Both are using some API services for which you need some kind of key which is not required globally. I then tend to create a file called &lt;code&gt;&amp;lt;app_name&amp;gt;_settings.py&lt;/code&gt;. We can always keep everything in &lt;code&gt;local_settings.py&lt;/code&gt; but this is how I prefer doing it.&lt;/p&gt;
+
+&lt;p&gt;Coming to my &lt;code&gt;local_settings.py&lt;/code&gt;, I create a very basic version initially. &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#SECURITY WARNING: keep the secret key used in production secret!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;SECRET_KEY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;)k@=hw&amp;amp;9_iywf#st7xg)k@=hw&amp;amp;nlj#6pxu!2f759nlj#6pxu!2f75&#39;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#SECURITY WARNING: don&#39;t run with debug turned on in production!&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;DEBUG&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#Database&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#https://docs.djangoproject.com/en/1.10/ref/settings/#databases&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;DATABASES&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;s&quot;&gt;&#39;default&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;ENGINE&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;django.db.backends.postgresql_psycopg2&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;NAME&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;generic&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;USER&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;postgresuser&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;PASSWORD&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;password&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;HOST&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;127.0.0.1&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;PORT&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;5432&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;s&quot;&gt;&#39;TEST&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+           &lt;span class=&quot;s&quot;&gt;&#39;NAME&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;generictest&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So as I was creating a new django project every few week, I grew irritated with the fact I have to create these files everytime. I did a quick lookup for any such tool that existed to automate these simple steps. I didn&amp;#39;t find any and decided to create my own. &lt;/p&gt;
+
+&lt;p&gt;I wrote a python script that created a .gitignore with the following:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Django #&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;*.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;*.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pot&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;*.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pyc&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__pycache__&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;local_settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqlite3&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;media&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Ignore all local_settings #&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Linux #&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;*.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swp&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It created a local_settings.py and a local_settings_sample.py with database settings. It also copied the SECRET_KEY from settings.py to local_settings.py. And finally it added this to the end of settings.py&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;.local_settings&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SECRET_KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DATABASES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DEBUG&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# noqa&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;except&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ImportError&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;Error:&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;noqa&lt;/code&gt; removes flake-8 warnings in case the line is greater than 80 chars.&lt;/p&gt;
+
+&lt;p&gt;I decided to make it more like a cli tool with arguments rather than just a script so that other people facing simmilar issues can take advantage of this tool as well as probably add some more stuff to it to make it even better. I used the really awesome &lt;a href=&quot;http://click.pocoo.org/5/&quot;&gt;click&lt;/a&gt; library and bingo! 
+I decided to call it &lt;code&gt;django-initiate&lt;/code&gt;. 
+So now all I needed to do was &lt;code&gt;pip install django-initiate&lt;/code&gt; and then run &lt;code&gt;initiate &amp;lt;awesome_project_name&amp;gt;&lt;/code&gt; from my project directory. And I have a basic settings figured out. It is to be noted however that to set the database settings with preferred config you have to provide optional arguments everytime. Probably we could add a config.json sometime. Or maybe you have a better idea. Create issues at &lt;a href=&quot;&quot;&gt;https://github.com/rmad17/djanjo-initiate&lt;/a&gt; or mail to &lt;code&gt;souravbasu17[at]gmail[dot]com&lt;/code&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>API calls with AngularJS</title>
