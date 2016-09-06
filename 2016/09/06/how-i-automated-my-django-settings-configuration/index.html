@@ -125,7 +125,7 @@
   <h1 class="post-title">How I Automated My Django Settings Configuration</h1>
   <span class="post-date">06 Sep 2016</span>
   <p>Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local_settings.py and local_settings_sample.py like many of you. 
-For those not familiar with the <code>local_settings.py</code> concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.</p>
+For those not familiar with the <code>local_settings.py</code> concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to a file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actual key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.</p>
 
 <p>My <code>.gitignore</code> generally looks something like this:</p>
 <div class="highlight"><pre><code class="language-viml" data-lang="viml">*<span class="p">.</span>pyc
@@ -179,7 +179,7 @@ local_settings<span class="p">.</span><span class="k">py</span>
 <span class="k">except</span> <span class="nb">ImportError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="s">'Error:'</span><span class="p">,</span> <span class="n">e</span><span class="o">.</span><span class="n">msg</span><span class="p">)</span>
 </code></pre></div>
-<p>The <code>noqa</code> removes flake-8 warnings in case the line is greater than 80 chars.</p>
+<p>The <code>noqa</code> removes flake-8 warnings in case the line is greater than 79 chars.</p>
 
 <p>I decided to make it more like a cli tool with arguments rather than just a script so that other people facing simmilar issues can take advantage of this tool as well as probably add some more stuff to it to make it even better. I used the really awesome <a href="http://click.pocoo.org/5/">click</a> library and bingo! 
 I decided to call it <code>django-initiate</code>. 

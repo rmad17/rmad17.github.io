@@ -4,7 +4,7 @@
  <title>Tech Karma</title>
  <link href="http://souravbasu.com/atom.xml" rel="self"/>
  <link href="http://souravbasu.com/"/>
- <updated>2016-09-06T18:31:49+05:30</updated>
+ <updated>2016-09-06T18:41:40+05:30</updated>
  <id>http://souravbasu.com</id>
  <author>
    <name>Sourav Basu</name>
@@ -18,7 +18,7 @@
    <updated>2016-09-06T00:00:00+05:30</updated>
    <id>http://souravbasu.com/2016/09/06/how-i-automated-my-django-settings-configuration</id>
    <content type="html">&lt;p&gt;Past couple of months I had to create a lot of django projects. I generally add a .gitignore, local_settings.py and local_settings_sample.py like many of you. 
-For those not familiar with the &lt;code&gt;local_settings.py&lt;/code&gt; concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actualy key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.&lt;/p&gt;
+For those not familiar with the &lt;code&gt;local_settings.py&lt;/code&gt; concept, to tell you briefly, I move out my secret keys and settings that I do not want people to find in my git repo to a file called local_settings.py and gitignore it. I also add a local_settings_sample.py to add the key names but without the actual key(adding empty strings). This file gets commited and whoever downloads the repo knows what keys he/she requires to recreate local_settings.py locally.&lt;/p&gt;
 
 &lt;p&gt;My &lt;code&gt;.gitignore&lt;/code&gt; generally looks something like this:&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-viml&quot; data-lang=&quot;viml&quot;&gt;*&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;pyc
@@ -72,7 +72,7 @@ local_settings&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot
 &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;ImportError&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;Error:&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The &lt;code&gt;noqa&lt;/code&gt; removes flake-8 warnings in case the line is greater than 80 chars.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;noqa&lt;/code&gt; removes flake-8 warnings in case the line is greater than 79 chars.&lt;/p&gt;
 
 &lt;p&gt;I decided to make it more like a cli tool with arguments rather than just a script so that other people facing simmilar issues can take advantage of this tool as well as probably add some more stuff to it to make it even better. I used the really awesome &lt;a href=&quot;http://click.pocoo.org/5/&quot;&gt;click&lt;/a&gt; library and bingo! 
 I decided to call it &lt;code&gt;django-initiate&lt;/code&gt;. 
