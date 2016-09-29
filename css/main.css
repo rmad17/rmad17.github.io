@@ -1,0 +1,51 @@
+.fa-heart{
+  color: #CD2626;
+}
+.footer-align{
+  position: absolute;
+  bottom: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: normal;
+  min-height: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.social{
+  text-align: inherit;
+  font-size: xx-large;
+}
+.circular-image {
+  align-self: center;
+  float: left;
+  display: block;
+  margin-left: 3rem;
+  margin-right: 0.55555rem;
+  width: 7%;
+  min-height: auto;
+  background: url(/public/images/me.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+.circular-image img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.comments{
+ margin-top: 1rem;
+}
+.center-align-content{
+ text-align: center;
+}
+.center-italics-content{
+ text-align: center;
+ font-style: italic;
+ font-size: 0.9em;
+}
