@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Tech Karma</title>
+ <title>Samhita</title>
  <link href="http://souravbasu.com/atom.xml" rel="self"/>
  <link href="http://souravbasu.com/"/>
- <updated>2018-07-29T19:32:10+05:30</updated>
+ <updated>2018-07-30T01:06:12+05:30</updated>
  <id>http://souravbasu.com</id>
  <author>
    <name>Sourav Basu</name>
