@@ -1,5 +1,5 @@
 baseURL: "https://examplesite.com/"
-title: Samhita
+title: ""
 paginate: 5
 theme: PaperMod
 
@@ -52,16 +52,16 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: ""
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: ""
+    subtitle: "Hello, I am Sourav. I am an engineer and architect from India with a decade of experience in the software world.  Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures."
+    imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Samhita"
-    Content: I am Sourav, an engineer and architect from India with a decade of experience. Here I pen down my personal thoughts over various subjects.
+    Title: ""
+    Content: Hello, I am Sourav. I am an engineer and architect from India with a decade of experience in the software world. Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures. 
 
   socialIcons:
     - name: github
