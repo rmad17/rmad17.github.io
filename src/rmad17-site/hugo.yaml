@@ -58,7 +58,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: ""
     subtitle: "Hello, I am Sourav. I am an engineer and architect from India with a decade of experience in the software world.  Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures."
     imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
@@ -75,6 +75,10 @@ params:
   homeInfoParams:
     Title: ""
     Content: Hello, I am Sourav. I am an engineer and architect from India with a decade of experience in the software world. Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures. 
+    imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
+    imageWidth: 100
+    imageHeight: 100
+    imageTitle: my image
 
   socialIcons:
     - name: github
