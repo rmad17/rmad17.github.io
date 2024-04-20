@@ -20,3 +20,13 @@ Broadly these are the following points we will be covering:
 6. Static Storage.
 7. Database Setup.
 8. Application Infrastruture.
+
+
+#### __Error Tracking__
+> `To err is human`
+
+We will continue to make mistakes and errors will continue forever. Whats the next best thing?
+To capture the error quickly. 
+There are a bunch of error tracking tools available in the market. My preferred choice has been to use Sentry over the years and it has never let me down. You are free to choose the tool of your choice but adding an error tracker should be top of the list.
+
+#### Secrets Management
