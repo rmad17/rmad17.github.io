@@ -42,7 +42,7 @@ params:
   showtoc: false
   tocopen: false
   enableEmoji: true
-
+  ShareButtons: ["linkedin", "twitter", "reddit", "ycombinator", "whatsapp"]
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
