@@ -1,7 +1,9 @@
 +++
 title = 'Application Deployment Checklist'
 date = 2024-04-20T10:18:04+05:30
-draft = true
+draft = false
+disqus_url = 'https://souravbasu.xyz/posts/application-deployment-checklist/'
+disqus_identifier = '2024-04-20T10:18:04+05:30'
 +++
 
 
