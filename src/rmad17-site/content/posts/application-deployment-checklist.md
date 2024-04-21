@@ -7,9 +7,9 @@ draft = true
 
 > ```Your app is built and you need to deploy it. What Next? Read On...```
 
-Before we deploy applications we need to follow a set of process to ensure we are prepared with enough information to manage any issue which may or may not be critical.
+Before we deploy applications we need to follow a set of process to ensure our application stack is prepared for any expected or unexpected events.
 Over the years I have experienced these scenarios and I have created a set of my personal checklists which allow me to quickly check 
-that my application meets all the requirements for recovering from potential pitfalls. 
+that my application has all the requirements for recovering from potential pitfalls. This article is about sharing the same.
 
 ```
 Broadly these are the following points we will be covering:
@@ -17,8 +17,8 @@ Broadly these are the following points we will be covering:
 2. Secrets and Environment Variables
 3. Dockerfile(s)
 4. Log Setup
-5. Static Storage
-6. Application Infrastruture
+5. Application Infrastruture
+6. Observability Platforms
 7. CI/CD Pipelines
 ```
 ****
@@ -37,3 +37,20 @@ Its 2024 and you really need to use Docker if you are already not doing so. For 
 To learn more about docker and docker-compose follow the links below. \
 https://docs.docker.com/guides/get-started/ \
 https://docs.docker.com/compose/ 
+
+#### Log Setup
+Logs are the foot soldiers of any technical investigation. They reveal the most boring yet vital information about any system or application.
+Hence, logs are critical to any system you deploy. The question is "how do I log"? Well, my usual answer to this is log to an external system that has good search capabilities. Logging to a .txt file maybe good for a dev system for production systems its not of much help unless we are able to quickly search what we need. Common recommened tools include [Logstash](https://www.elastic.co/logstash), [GrayLog](https://graylog.org/).
+
+#### Application Infrastrure
+We usually setup infrastructure following the easiest approach and this may serve us well in the short term, however, may force us to spend a lot more time in the long term. When allocating infrastructure for production systems we need to ensure that the infrastructure must be able to handle sudden surges in traffic. For this it is essetial to atleast setup an AutoScalingGroup(ASG) if using AWS or equivalent in our cloud providers. We should also look to setup Subnets and VPCs first, Databases second and the rest of the stack after that. This sequence is based on the dependency of the resources on each other.
+
+#### Observability Platform
+Once the application infrastructure is setup, it also needs to be monitored. Effective monitoring with the help of alarms ensures we are able to quickly respond to any issues arising with the resources. Popular observability platforms include, [AWS Cloudwatch](https://aws.amazon.com/cloudwatch/), [Prometheus](https://prometheus.io/), [Datadog](https://www.datadoghq.com/), etc.
+
+#### CI/CD Platforms
+The best time to setup a CI/CD process is when setting up deployment. This will often save hundreds of developer hours in future as well as improve the quality of code that is deployed by adding test runs for unit tests, linting checks, etc. Common examples of CI/CD tools are [Jenkins](https://www.jenkins.io/), [CircleCI](https://circleci.com/), [AWS CodePipeline](https://aws.amazon.com/codepipeline/), etc.
+
+
+### Conclusion
+Now, we've come to the end of our checklist and your app is ready for deployment to production. I hope this checklist helps you in ensuring the deployment process is smooth and its future ready to avoid any performance issues for the near future.

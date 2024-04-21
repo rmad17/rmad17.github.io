@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://souravbasu.xyz/"
 title: ""
 paginate: 5
 theme: PaperMod
@@ -8,7 +8,7 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-Z8CH2E9HK0
 
 minify:
   disableXML: true
@@ -69,8 +69,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      # - name: Tags
+      #   url: tags
 
   # home-info mode
   homeInfoParams:
@@ -116,14 +116,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 50
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
