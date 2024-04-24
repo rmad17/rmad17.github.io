@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Checklist on </title>
+    <link>http://localhost:1313/tags/checklist/</link>
+    <description>Recent content in Checklist on </description>
+    <image>
+      <title></title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 20 Apr 2024 10:18:04 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/checklist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Application Deployment Checklist</title>
+      <link>http://localhost:1313/posts/application-deployment-checklist/</link>
+      <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
+      <guid>http://localhost:1313/posts/application-deployment-checklist/</guid>
+      <description>Your app is built and you need to deploy it. What Next? Read On...
+Before we deploy applications we need to follow a set of process to ensure our application stack is prepared for any expected or unexpected events. Over the years I have experienced these scenarios and I have created a set of my personal checklists which allow me to quickly check that my application has all the requirements for recovering from potential pitfalls.</description>
+    </item>
+  </channel>
+</rss>

@@ -86,10 +86,12 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/rmad17"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/4039116/rmad17"
     - name: linkedin
       url: "https://www.linkedin.com/in/souravbasu17/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/4039116/rmad17"
+    - name: email
+      url: "mailto:souravbasu17@gmail.com"
 
   analytics:
     google:

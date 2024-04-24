@@ -2,6 +2,8 @@
 title = 'Application Deployment Checklist'
 date = 2024-04-20T10:18:04+05:30
 draft = false
+tags = ["web-application", "deployent", "checklist"]
+categories = ["tech", "devops"]
 disqus_url = 'https://souravbasu.xyz/posts/application-deployment-checklist/'
 disqus_identifier = '2024-04-20T10:18:04+05:30'
 +++
