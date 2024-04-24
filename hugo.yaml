@@ -20,8 +20,8 @@ services:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Samhita
-  description: "ExampleSite description"
+  title: "Prishtha"
+  description: "Book of Observations"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -49,12 +49,12 @@ params:
   ShareButtons: ["linkedin", "twitter", "reddit", "ycombinator", "whatsapp"]
   assets:
     # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: ""
@@ -69,7 +69,6 @@ params:
     imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
     buttons:
       - name: Posts
         url: posts
@@ -79,11 +78,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: ""
-    Content: Hello, I am Sourav. I am an engineer and architect from India 🇮🇳 with a decade of experience in the software world. Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures. 
+    Content: Hello there 👋! I am Sourav, an engineer and solutions architect from India 🇮🇳 with a decade of experience in the software world. Here I pen down my personal thoughts over various subjects including tech, startups, capital markets, sports, history and cultures. 
     imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
-    imageWidth: 100
-    imageHeight: 100
-    imageTitle: my image
+    imageWidth: 120
+    imageHeight: 120
 
   socialIcons:
     - name: github
@@ -115,21 +113,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
-      weight: 50
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
+    - identifier: prishtha
+      name: Prishtha
+      url: /
+      weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
