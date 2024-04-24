@@ -2,17 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://souravbasu.xyz/</loc>
     <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/application-deployment-checklist/</loc>
+    <loc>https://souravbasu.xyz/posts/application-deployment-checklist/</loc>
     <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://souravbasu.xyz/categories/</loc>
     <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://souravbasu.xyz/tags/checklist/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://souravbasu.xyz/tags/deployent/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
+  </url><url>
+    <loc>https://souravbasu.xyz/categories/devops/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
+  </url><url>
+    <loc>https://souravbasu.xyz/posts/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
+  </url><url>
+    <loc>https://souravbasu.xyz/tags/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
+  </url><url>
+    <loc>https://souravbasu.xyz/categories/tech/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
+  </url><url>
+    <loc>https://souravbasu.xyz/tags/web-application/</loc>
+    <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url>
 </urlset>
