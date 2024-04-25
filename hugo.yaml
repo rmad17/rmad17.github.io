@@ -1,5 +1,5 @@
 baseURL: "https://souravbasu.xyz/"
-title: ""
+title: "Svādhyāya"
 paginate: 5
 theme: PaperMod
 
@@ -20,10 +20,10 @@ services:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Prishtha"
-  description: "Book of Observations"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: ""
+  description: ""
+  keywords: [Svādhyāya, Blog, Portfolio, Python, Rust, AWS]
+  # author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -50,15 +50,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+    favicon: icon-1.png
+    favicon16x16: icon-1.png
+    favicon32x32: icon-1.png
+    apple_touch_icon: icon-1.png
+    safari_pinned_tab: icon-1.png
 
   label:
     text: ""
-    icon: /apple-touch-icon.png
+    icon: icon-1.png
     iconHeight: 35
 
   # profile-mode
@@ -78,7 +78,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: ""
-    Content: Hello there 👋! I am Sourav, an engineer and solutions architect from India 🇮🇳 with a decade of experience in the software world. Here I pen down my personal thoughts over various subjects including tech, startups, capital markets, sports, history and cultures. 
+    Content: Hello there 👋! I am Sourav, an engineer and solutions architect from India 🇮🇳 with a decade of experience in the software world. Here I pen down my thoughts over various subjects including tech, capital markets, sports and many more. 
     imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
     imageWidth: 120
     imageHeight: 120
@@ -113,12 +113,12 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: prishtha
-      name: Prishtha
-      url: /
-      weight: 10
+# menu:
+#   main:
+#     - identifier: prishtha
+#       name: Prishtha
+#       url: /
+#       weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
