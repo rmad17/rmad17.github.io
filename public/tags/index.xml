@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Svādhyāya</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://souravbasu.xyz/tags/</link>
     <description>Recent content in Tags on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Apr 2024 10:18:04 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://souravbasu.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Checklist</title>
-      <link>http://localhost:1313/tags/checklist/</link>
+      <link>https://souravbasu.xyz/tags/checklist/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>http://localhost:1313/tags/checklist/</guid>
+      <guid>https://souravbasu.xyz/tags/checklist/</guid>
       <description></description>
     </item>
     <item>
-      <title>Deployent</title>
-      <link>http://localhost:1313/tags/deployent/</link>
+      <title>Deployment</title>
+      <link>https://souravbasu.xyz/tags/deployment/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>http://localhost:1313/tags/deployent/</guid>
+      <guid>https://souravbasu.xyz/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Application</title>
-      <link>http://localhost:1313/tags/web-application/</link>
+      <link>https://souravbasu.xyz/tags/web-application/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>http://localhost:1313/tags/web-application/</guid>
+      <guid>https://souravbasu.xyz/tags/web-application/</guid>
       <description></description>
     </item>
   </channel>
