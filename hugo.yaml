@@ -66,7 +66,7 @@ params:
     enabled: false # needs to be explicitly set
     title: ""
     subtitle: "Hello, I am Sourav. I am an engineer and architect from India with a decade of experience in the software world.  Here I pen down my personal thoughts over various subjects. Outside of tech I also love reading up on startups, entrepreneurship, capital markets, sports, history and cultures."
-    imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
+    imageUrl: https://2.gravatar.com/avatar/bbe76e9236a1f6b53939a287c72a75003f1f9932c39f80a6a42b8e396d459708?size=256
     imageWidth: 120
     imageHeight: 120
     buttons:
@@ -79,7 +79,7 @@ params:
   homeInfoParams:
     Title: ""
     Content: Hello there 👋! I am Sourav, an engineer and solutions architect from India 🇮🇳 with a decade of experience in the software world. Here I pen down my thoughts over various subjects including tech, capital markets, sports and many more. 
-    imageUrl: "https://media.licdn.com/dms/image/D5603AQGNEF6p2JQGVg/profile-displayphoto-shrink_200_200/0/1690652529834?e=1717027200&v=beta&t=Vu-1YOX7y45GLBILyg49jaqq8CN6OeA_ogsmNBaO09o"
+    imageUrl: https://2.gravatar.com/avatar/bbe76e9236a1f6b53939a287c72a75003f1f9932c39f80a6a42b8e396d459708?size=256
     imageWidth: 120
     imageHeight: 120
 
