@@ -38,7 +38,7 @@ will be used by the AutoScalingGroup to launch any instance.
 *Note: For folks not using AWS Free Tier, I would recommend using t3a/t4g instance types as they are significantly cost efficient.*
 ### AutoScalingGroup
 
-AutoScalingGroups is way to increase or decrease number of EC2 instances deployed based on predefined condition. The creation of new instances is based on the launch template image defined in the previous section.
+AutoScalingGroup is way to increase or decrease number of EC2 instances deployed based on predefined condition. The creation of new instances is based on the launch template image defined in the previous section.
 1. Once the Launch Template is created we can create AutoScalingGroup by selecting the template and selecting `Create Auto Scaling group` from the `Actions` dropdown. 
 2. Provide the AutoScalingGroup name and then proceed. 
 3. Select the `vpc` and `availbility zones` and `subnets` from which you want instances to be created. AZs might be limited based on your instance type as well. As part of advanced options you will be asked about load balancer configuration. 
