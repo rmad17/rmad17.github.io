@@ -38,12 +38,13 @@ will be used by the AutoScalingGroup to launch any instance.
 *Note: For folks not using AWS Free Tier, I would recommend using t3a/t4g instance types as they are significantly cost efficient.*
 ### AutoScalingGroup
 
-Once the Launch Template is created we can create AutoScalingGroup by selecting the template and selecting `Create Auto Scaling group` from the `Actions` dropdown. 
-1. Provide the AutoScalingGroup name and then proceed. 
-2. Select the `vpc` and `availbility zones` and `subnets` from which you want instances to be created. AZs might be limited based on your instance type as well. As part of advanced options you will be asked about load balancer configuration. 
-3. Attach to a new application load balancer that is internet facing. Create a new target group unless that already exists. Enable health checks, cloudwatch metrics collection and proceed to next screen. 
-4. Set up a target tracking policy, for eg. CPU utilization > 50% and set the min, max and desired no. of instances. Desired instances is the default number of instances when the system is not scaling out or scaling in. 
-5. In the subsequent steps you should be able to add notifications via SNS and add tags. Finally, review your configuration and then create the AutoScalingGroup.
+AutoScalingGroups is way to increase or decrease number of EC2 instances deployed based on predefined condition. The creation of new instances is based on the launch template image defined in the previous section.
+1. Once the Launch Template is created we can create AutoScalingGroup by selecting the template and selecting `Create Auto Scaling group` from the `Actions` dropdown. 
+2. Provide the AutoScalingGroup name and then proceed. 
+3. Select the `vpc` and `availbility zones` and `subnets` from which you want instances to be created. AZs might be limited based on your instance type as well. As part of advanced options you will be asked about load balancer configuration. 
+4. Attach to a new application load balancer that is internet facing. Create a new target group unless that already exists. Enable health checks, cloudwatch metrics collection and proceed to next screen. 
+5. Set up a target tracking policy, for eg. CPU utilization > 50% and set the min, max and desired no. of instances. Desired instances is the default number of instances when the system is not scaling out or scaling in. 
+6. In the subsequent steps you should be able to add notifications via SNS and add tags. Finally, review your configuration and then create the AutoScalingGroup.
 
 ### CodePipeline
 Now that our AutoScalingGroup is up, we need to create a pipeline that will deploy our code to each instance. CodePipeline involves setting up CodePipeline, CodeBuild and CodeDeploy. However, in our case we can skip CodeBuild as we will not be needing it. Before, setting up the pipeline we need to add the CodeDeploy settings. Follow the below steps. 
