@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 04 May 2024 00:20:26 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 May 2024 00:06:26 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/web-application/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
       <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
-      <pubDate>Sat, 04 May 2024 00:20:26 +0530</pubDate>
+      <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
       <guid>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
       <description>In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non exhaustive common list of ways to deploy to cloud.
 In a single VM instance. For eg. Droplet(Digital Ocean), EC2(AWS), Compute Engine(GCP), etc. In one or more VM instances with autoscaling. Not all cloud providers currently support this. AWS, GCP and Azure currently does it.</description>
