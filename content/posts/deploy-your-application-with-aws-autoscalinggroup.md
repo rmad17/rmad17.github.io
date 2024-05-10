@@ -22,6 +22,7 @@ as well as be cost efficient. We will be using AWS Console to setup the AutoScal
 
 ### Pre Requisites
 This example will be using a docker-compose.yml and Dockerfile. How to create those files is outside the scope of the blog and is expected to be part of your codebase.
+The steps in this post also requires a basic idea of AWS Services like EC2, Application Load Balancer, IAM, CodeDeploy and CodePipeline.
 
 ### Architecture Diagram
 ![A simplified architecture diagram of the stack we will be trying to setup.](../../asg-1.png)
