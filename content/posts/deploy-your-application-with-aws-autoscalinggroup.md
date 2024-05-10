@@ -25,7 +25,7 @@ This example will be using a docker-compose.yml and Dockerfile. How to create th
 The steps in this post also requires a basic idea of AWS Services like EC2, Application Load Balancer, IAM, CodeDeploy and CodePipeline.
 
 ### Architecture Diagram
-![A simplified architecture diagram of the stack we will be trying to setup.](../../asg-1.png)
+![A simplified architecture diagram of the stack we will be setting up.](../../asg-1.png)
 *A simplified architecture diagram of the stack we will be setting up*
 
 ### Launch Templates
