@@ -2,7 +2,7 @@
 title = 'Deploy Your Application With AWS AutoScalingGroup'
 date = 2024-05-10T00:06:26+05:30
 draft = false
-tags = ["aws", "web-application", "autoscalinggroup", "asg", "deployment", "beginner"]
+tags = ["aws", "web-application", "autoscalinggroup", "asg", "deployment", "beginner friendly"]
 categories = ["tech", "devops", "aws", "deployment"]
 disqus_url = 'https://souravbasu.xyz/posts/deploy-your-application-to-aws-asg/'
 disqus_identifier = '2024-05-10T00:06:26+05:30'
