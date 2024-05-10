@@ -33,7 +33,7 @@ The steps in this post also requires a basic idea of AWS Services like EC2, Appl
 1. Login to your AWS Account and lets start by setting up a Launch Template. A launch template is a newer form of launch configuration where we specify the configuration that
 will be used by the AutoScalingGroup to launch any instance.
 2. Add the details as requested in you preferred region. For my template, I set the region as ap-south-1(Mumbai). I used an `Ubuntu 24.04` image, a `t2.micro` instance, `gp3` EBS storage. I also created a new security group seperately and then selected that for the template. 
-3. In the advanced options we need to add docker installation in user data. Alternatively, you can create an AMI with docker pre installed and select it for launch template. This will allow faster scale ups. \
+3. In the advanced options we need to add docker installation in user data. Alternatively, you can create an AMI with docker pre installed and select it for launch template. This will allow faster scale ups.  
 
 *Note: For folks not using AWS Free Tier, I would recommend using t3a/t4g instance types as they are significantly cost efficient.*
 ### AutoScalingGroup
