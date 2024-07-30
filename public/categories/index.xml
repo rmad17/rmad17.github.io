@@ -11,40 +11,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jul 2024 07:48:24 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auth</title>
       <link>http://localhost:1313/categories/auth/</link>
-      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/auth/</guid>
       <description></description>
     </item>
     <item>
       <title>Gin</title>
       <link>http://localhost:1313/categories/gin/</link>
-      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/gin/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
       <link>http://localhost:1313/categories/golang/</link>
-      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Google-Login</title>
       <link>http://localhost:1313/categories/google-login/</link>
-      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/google-login/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/categories/tech/</link>
-      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/tech/</guid>
       <description></description>
     </item>
