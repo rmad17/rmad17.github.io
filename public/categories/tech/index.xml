@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 May 2024 00:06:26 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 07:48:24 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Login Using Go and Gin</title>
+      <link>http://localhost:1313/posts/google-login-using-go-and-gin/</link>
+      <pubDate>Sun, 28 Jul 2024 07:48:24 +0530</pubDate>
+      <guid>http://localhost:1313/posts/google-login-using-go-and-gin/</guid>
+      <description>In this blog we will learn about how to get started with Golang and create a auth with Google Login. We will be using the Gin and gorm ORM. During my initial uses of Gin I felt for new users the documentation is not friendly enough, hence I decided to write this article. If you are coming from a Python/Ruby world Gin is NOT like Django or Rails. Rather, its more like Flask and Sinatra.</description>
+    </item>
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
       <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
