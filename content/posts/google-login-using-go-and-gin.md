@@ -3,6 +3,7 @@ title = 'Google Login Using Go and Gin'
 date = 2024-07-30T22:48:24+05:30
 draft = false
 cover.image = '../../go-google-cover.png'
+cover.relative = true
 tags = ["go", "golang", "gin", "google login", "auth", "social auth", "beginner friendly"]
 categories = ["tech", "auth", "golang", "gin", "google-login"]
 disqus_url = 'https://souravbasu.xyz/posts/google-login-using-go-gin/'
