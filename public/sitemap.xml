@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/auth/</loc>
+    <loc>https://souravbasu.xyz/tags/auth/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/auth/</loc>
+    <loc>https://souravbasu.xyz/categories/auth/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/beginner-friendly/</loc>
+    <loc>https://souravbasu.xyz/tags/beginner-friendly/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://souravbasu.xyz/categories/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gin/</loc>
+    <loc>https://souravbasu.xyz/tags/gin/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/gin/</loc>
+    <loc>https://souravbasu.xyz/categories/gin/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://souravbasu.xyz/tags/go/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://souravbasu.xyz/tags/golang/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/golang/</loc>
+    <loc>https://souravbasu.xyz/categories/golang/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google-login/</loc>
+    <loc>https://souravbasu.xyz/tags/google-login/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/google-login-using-go-and-gin/</loc>
+    <loc>https://souravbasu.xyz/posts/google-login-using-go-and-gin/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/google-login/</loc>
+    <loc>https://souravbasu.xyz/categories/google-login/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://souravbasu.xyz/posts/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/social-auth/</loc>
+    <loc>https://souravbasu.xyz/tags/social-auth/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://souravbasu.xyz/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://souravbasu.xyz/tags/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://souravbasu.xyz/categories/tech/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/asg/</loc>
+    <loc>https://souravbasu.xyz/tags/asg/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/autoscalinggroup/</loc>
+    <loc>https://souravbasu.xyz/tags/autoscalinggroup/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://souravbasu.xyz/tags/aws/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/aws/</loc>
+    <loc>https://souravbasu.xyz/categories/aws/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</loc>
+    <loc>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deployment/</loc>
+    <loc>https://souravbasu.xyz/tags/deployment/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/deployment/</loc>
+    <loc>https://souravbasu.xyz/categories/deployment/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/devops/</loc>
+    <loc>https://souravbasu.xyz/categories/devops/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web-application/</loc>
+    <loc>https://souravbasu.xyz/tags/web-application/</loc>
     <lastmod>2024-05-10T00:06:26+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/application-deployment-checklist/</loc>
+    <loc>https://souravbasu.xyz/posts/application-deployment-checklist/</loc>
     <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/checklist/</loc>
+    <loc>https://souravbasu.xyz/tags/checklist/</loc>
     <lastmod>2024-04-20T10:18:04+05:30</lastmod>
   </url>
 </urlset>
