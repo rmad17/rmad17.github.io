@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Svādhyāya</title>
-    <link>https://souravbasu.xyz/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
-    <atom:link href="https://souravbasu.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auth</title>
-      <link>https://souravbasu.xyz/categories/auth/</link>
+      <link>http://localhost:1313/categories/auth/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/auth/</guid>
+      <guid>http://localhost:1313/categories/auth/</guid>
       <description></description>
     </item>
     <item>
       <title>Gin</title>
-      <link>https://souravbasu.xyz/categories/gin/</link>
+      <link>http://localhost:1313/categories/gin/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/gin/</guid>
+      <guid>http://localhost:1313/categories/gin/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://souravbasu.xyz/categories/golang/</link>
+      <link>http://localhost:1313/categories/golang/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/golang/</guid>
+      <guid>http://localhost:1313/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Google-Login</title>
-      <link>https://souravbasu.xyz/categories/google-login/</link>
+      <link>http://localhost:1313/categories/google-login/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/google-login/</guid>
+      <guid>http://localhost:1313/categories/google-login/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://souravbasu.xyz/categories/tech/</link>
+      <link>http://localhost:1313/categories/tech/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/tech/</guid>
+      <guid>http://localhost:1313/categories/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Aws</title>
-      <link>https://souravbasu.xyz/categories/aws/</link>
+      <link>http://localhost:1313/categories/aws/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/aws/</guid>
+      <guid>http://localhost:1313/categories/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Deployment</title>
-      <link>https://souravbasu.xyz/categories/deployment/</link>
+      <link>http://localhost:1313/categories/deployment/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/deployment/</guid>
+      <guid>http://localhost:1313/categories/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://souravbasu.xyz/categories/devops/</link>
+      <link>http://localhost:1313/categories/devops/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/categories/devops/</guid>
+      <guid>http://localhost:1313/categories/devops/</guid>
       <description></description>
     </item>
   </channel>
