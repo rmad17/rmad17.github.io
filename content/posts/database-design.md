@@ -49,31 +49,26 @@ The fantasy football platform presented a classic read-heavy scenario with extre
 
 ## 📊 Traffic Pattern Analysis
 
-```
-Concurrent Users (thousands)
-│
-50├    ██                      ██
-  │    ██                      ██
-40├    ██                      ██
-  │    ██                      ██
-30├    ██                      ██
-  │    ██                      ██
-20├    ██                      ██
-  │    ██                      ██
-10├    ██                      ██
-  │ ▄▄▄██▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄ ▄▄▄██▄▄▄
- 0└────────────────────────────────
-   Mon Tue Wed Thu Fri Sat   Sun
-```
-
 **Key Insights:**
 - **Read vs Write Ratio:** 15:1 (users check 15x more than they change)
-- **Peak Duration:** 6 hours across multiple match kickoffs
+- **Peak Duration:** 6-8 hours across multiple match kickoffs
 - **Critical Path:** Live player statistics during matches
 
 ## Database Architecture: Strategic Denormalization
 
 Instead of a normalized approach, I designed for query efficiency with strategic denormalization:
+The data required during the peak hours could be resolved into three categories:
+* Player and Team Info - This includes profile information on players and teams
+* Live Updated Data - This is the match data that we are storing for each player at an appearance level. 
+* Calculated Metrics and Points - This is the data that is calculated realtime based on the match data and the players role. This is the metrics that is used in ranking players and teams.
+
+The first kind of data changes very little and is easier to cache. Invalidating the cache every week or twice a week would be sufficient 
+to ensure that the profile information is always updated. This also reduced the initial load time for our stats dashboard as we could present this
+data while the rest of the data loaded.
+
+The next piece of the puzzle was fetching the match data. We had indexes setup to improve the speed of fetching from the database. The challenge with indexes is that they slow down the writes of the database. To create a balance we used sockets to push real time updates, using Elixir to manage concurrency and indexes on database to manage the fast reads. We preferred to optimise queries over read replicas to ensure the user has access to almost real time data.
+
+The third part is where the majority of challenges lie. This is the most critical data and a large part of it is derived from the other sets of data. The derivation process is also based on algorithms created by us and this created the scoring process. This is also to be factored that post the metrics and points calculations these needs to be store to the database for further reads. This could not be solved by one single way so we broke it down to multiple approaches. The 
 
 ### Primary Tables (Normalized Source of Truth)
 
