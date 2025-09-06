@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 01:00:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database Design for Products</title>
+      <link>http://localhost:1313/posts/database-design/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/posts/database-design/</guid>
+      <description>Database Design: A Product-First Approach to Building Scalable Systems After years of building database architectures for high-scale applications, I&amp;rsquo;ve developed a clear understanding of what separates successful systems from those that crumble under real-world product demands. Database design is often approached through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects remain crucial, my experience across diverse projects has shown that the most successful architectures emerge from a deep understanding of the product they serve.</description>
+    </item>
+    <item>
+      <title>Neovim With Lua</title>
+      <link>http://localhost:1313/posts/neovim-with-lua/</link>
+      <pubDate>Tue, 27 May 2025 19:25:16 +0530</pubDate>
+      <guid>http://localhost:1313/posts/neovim-with-lua/</guid>
+      <description>The Backstory I have been a vim user since a decade back and switched to using neovim more than five years ago. Anyone familiar with the vim/neovim ecosystem would know how much it has evolved in the last few years. I had started with using Vundle for managing my plugins, moving to Plug at a later point. All this while my configuration was a simple vim script (init.vim) where my configurations were neatly organized in less than ~200 lines.</description>
+    </item>
     <item>
       <title>Google Login Using Go and Gin</title>
       <link>http://localhost:1313/posts/google-login-using-go-and-gin/</link>

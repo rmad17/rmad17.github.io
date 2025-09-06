@@ -11,8 +11,50 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 01:00:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Api</title>
+      <link>http://localhost:1313/tags/api/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/tags/database/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database Design</title>
+      <link>http://localhost:1313/tags/database-design/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/database-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Product</title>
+      <link>http://localhost:1313/tags/product/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/product/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling</title>
+      <link>http://localhost:1313/tags/scaling/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/scaling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System Design</title>
+      <link>http://localhost:1313/tags/system-design/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/tags/system-design/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Auth</title>
       <link>http://localhost:1313/tags/auth/</link>
