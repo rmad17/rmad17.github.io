@@ -13,7 +13,7 @@ disqus_identifier = '2025-09-06T01:00:28+05:30'
 
 # Database Design: A Product-First Approach to Building Scalable Systems
 
-over the years wrestling with database architectures I've learned that the most elegant technical solution isn't always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I've witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.
+Over the years wrestling with database architectures I've learned that the most elegant technical solution isn't always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I've witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.
 This article distills hard-won lessons from building databases for fantasy sports platforms that needed to handle 100x traffic spikes during Premier League matches, airline systems that couldn't afford a single booking failure, and financial systems where a single data inconsistency could trigger regulatory audits. The fantasy platform that once struggled with Saturday afternoon traffic surges now gracefully handles millions of users checking their teams during Champions League nights. The airline system processes complex multi-leg journeys without breaking a sweat. Each project taught me something different about the gap between textbook database design and production reality.
 What changed wasn't the technology—it was the approach. I stopped designing databases for technical perfection and started designing them for the products they serve. This shift in perspective has been the difference between systems that merely function and systems that excel under pressure.
 
@@ -52,7 +52,7 @@ This article shares insights from three distinct use cases, each with unique cha
 
 # Case Study 1: Fantasy Football App - Optimizing for Read-Heavy Workloads
 
-## The Challenge: 100x Traffic Spikes During Live Matches
+## The Challenge: 5x Traffic Spikes During Live Matches
 
 The fantasy football platform presented a classic read-heavy scenario with extreme burst scaling requirements. During match days, concurrent users jumped from 300/min to 1500+/min (5x spike) as users obsessively checked live scores and player statistics.
 
