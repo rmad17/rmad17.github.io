@@ -3,11 +3,18 @@ title = 'Database Design for Products'
 date = 2025-09-06T01:00:28+05:30
 tags = ["database", "api", "scaling", "product", "system design", "database design"]
 draft = false
+cover.image = '../../databasedesign.png'
+cover.hidden = false
+categories = ["tech", "database", "database-design", "system-design"]
+disqus_url = 'https://souravbasu.xyz/posts/database-design/'
+disqus_identifier = '2025-09-06T01:00:28+05:30'
 +++
 
 # Database Design: A Product-First Approach to Building Scalable Systems
 
-After years of building database architectures for high-scale applications, I've developed a clear understanding of what separates successful systems from those that crumble under real-world product demands. Database design is often approached through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects remain crucial, my experience across diverse projects has shown that the most successful architectures emerge from a deep understanding of the product they serve.
+over the years wrestling with database architectures I've learned that the most elegant technical solution isn't always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I've witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.
+This article distills hard-won lessons from building databases for fantasy sports platforms that needed to handle 100x traffic spikes during Premier League matches, airline systems that couldn't afford a single booking failure, and financial systems where a single data inconsistency could trigger regulatory audits. The fantasy platform that once struggled with Saturday afternoon traffic surges now gracefully handles millions of users checking their teams during Champions League nights. The airline system processes complex multi-leg journeys without breaking a sweat. Each project taught me something different about the gap between textbook database design and production reality.
+What changed wasn't the technology—it was the approach. I stopped designing databases for technical perfection and started designing them for the products they serve. This shift in perspective has been the difference between systems that merely function and systems that excel under pressure.
 
 This article shares insights from three distinct use cases, each with unique challenges that shaped my approach to product-centric database design.
 
@@ -46,7 +53,7 @@ This article shares insights from three distinct use cases, each with unique cha
 
 ## The Challenge: 100x Traffic Spikes During Live Matches
 
-The fantasy football platform presented a classic read-heavy scenario with extreme burst scaling requirements. During match days, concurrent users jumped from 500 to 50,000+ (100x spike) as users obsessively checked live scores and player statistics.
+The fantasy football platform presented a classic read-heavy scenario with extreme burst scaling requirements. During match days, concurrent users jumped from 300/min to 1500+/min (5x spike) as users obsessively checked live scores and player statistics.
 
 ## 📊 Traffic Pattern Analysis
 
@@ -79,13 +86,13 @@ The last step of denormalization requires a tradeoff to use more storage which w
 
 ## API Query Optimization Examples
 
-**Before (Normalized - 7 table joins):**
+**Before Optimization**
 Common API call: "Get Cristiano Ronaldo's season summary with home and away points"
-- Required tables: Players → Teams → Match_Stats → Game_Results → Team_Schedules → Opponent_Stats →  
+- Required tables: Players → Teams → Match Stats → Game Results → Team Schedules → Opponent Stats   
 - Response time: 2-5 seconds
 - Database load: High CPU usage during peak traffic
 
-**After (Denormalized - Single table lookup):**
+**Post Optimization**
 Same API call using seperate homne and away table :
 - Required tables: Single table lookup from player_season_summary
 - Response time: <500ms
@@ -100,6 +107,7 @@ Same API call using seperate homne and away table :
 | **Peak Load Handling** | 500 concurrent users per minute | 2.5k concurrent users per minute | 2k concurrent users per minute |
 | **API Response Time** | 3-8 seconds | <500ms | 6-15x faster |
 | **Database Load** | >90% during peaks | 40% during peaks | >50% reduction |
+| **Business Gains** | Smoother user experience | Cost reduction due to more efficient queries |
 
 
 ---
@@ -145,6 +153,7 @@ The challenge in this case was airlines follow different versions of NDC. The ai
 | **Migration Time** | `1 day` | Time to add new version support |
 | **Zero Downtime** | `✓` | No service interruption for updates |
 | **Client Compatibility** | `100%` | All client versions supported |
+| **Business Gains** | Better support for multiple clients | Increasing potential customers |
 
 ---
 
@@ -203,6 +212,16 @@ Direct lookup from loan_status table:
 - Query complexity: Simple SELECT with WHERE clause
 
 <br>
+
+## Results Achieved
+
+| Metric | Before | After | Improvement |
+|--------|--------|--------|-------------|
+| **Loan Officer Query Time** | 3-8 seconds | <400ms | 6-10x faster |
+| **Compliance Report Generation** | 2 hours | 5 minutes | 24x faster |
+| **Business Gains** | Faster turnaround for reports | Reduced Customer Queries |
+
+---
 
 # Key Learnings: When to Normalize vs. Denormalize
 

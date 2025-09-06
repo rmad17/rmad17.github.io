@@ -18,7 +18,7 @@
       <link>http://localhost:1313/posts/database-design/</link>
       <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
       <guid>http://localhost:1313/posts/database-design/</guid>
-      <description>Database Design: A Product-First Approach to Building Scalable Systems After years of building database architectures for high-scale applications, I&amp;rsquo;ve developed a clear understanding of what separates successful systems from those that crumble under real-world product demands. Database design is often approached through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects remain crucial, my experience across diverse projects has shown that the most successful architectures emerge from a deep understanding of the product they serve.</description>
+      <description>Database Design: A Product-First Approach to Building Scalable Systems over the years wrestling with database architectures I&amp;rsquo;ve learned that the most elegant technical solution isn&amp;rsquo;t always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I&amp;rsquo;ve witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.</description>
     </item>
     <item>
       <title>Neovim With Lua</title>

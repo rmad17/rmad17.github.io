@@ -5,13 +5,22 @@
     <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/database/</loc>
+    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/database/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/database-design/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/database-design/</loc>
+    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/database-design/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
@@ -29,7 +38,13 @@
     <loc>http://localhost:1313/tags/system-design/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/system-design/</loc>
+    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/neovim-with-lua/</loc>
@@ -42,9 +57,6 @@
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/beginner-friendly/</loc>
-    <lastmod>2024-07-30T22:48:24+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gin/</loc>
@@ -72,9 +84,6 @@
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/social-auth/</loc>
-    <lastmod>2024-07-30T22:48:24+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2024-07-30T22:48:24+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/asg/</loc>

@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 01:00:28 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database</title>
+      <link>http://localhost:1313/categories/database/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/categories/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database-Design</title>
+      <link>http://localhost:1313/categories/database-design/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/categories/database-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System-Design</title>
+      <link>http://localhost:1313/categories/system-design/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/categories/system-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/categories/tech/</link>
+      <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/categories/tech/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Auth</title>
       <link>http://localhost:1313/categories/auth/</link>
@@ -39,13 +67,6 @@
       <link>http://localhost:1313/categories/google-login/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
       <guid>http://localhost:1313/categories/google-login/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tech</title>
-      <link>http://localhost:1313/categories/tech/</link>
-      <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>http://localhost:1313/categories/tech/</guid>
       <description></description>
     </item>
     <item>
