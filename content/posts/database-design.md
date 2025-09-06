@@ -1,7 +1,10 @@
 +++
 title = 'Database Design for Products'
 date = 2025-09-06T01:00:28+05:30
+<<<<<<< HEAD
 tags = ["database", "api", "scaling", "product", "system design", "database design"]
+=======
+>>>>>>> 03a36b8fedaecefc45fda89e5e237c9feebfdad3
 draft = false
 +++
 
