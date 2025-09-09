@@ -19,6 +19,14 @@ What changed wasn't the technology—it was the approach. I stopped designing da
 
 This article shares insights from three distinct use cases, each with unique challenges that shaped my approach to product-centric database design.
 
+
+
+## 🎧 Looking for a audio overview?
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2167608318&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sourav-basu-952044690" title="Sourav Basu" target="_blank" style="color: #cccccc; text-decoration: none;">Sourav Basu</a> · <a href="https://soundcloud.com/sourav-basu-952044690/database-designs-for-product" title="Database Designs for Product" target="_blank" style="color: #cccccc; text-decoration: none;">Database Designs for Product</a></div>
+
+---
+
 ## 🎯 Product-Centric Database Design Framework
 
 ```
@@ -94,7 +102,7 @@ Common API call: "Get Cristiano Ronaldo's season summary with home and away poin
 - Database load: High CPU usage during peak traffic
 
 **Post Optimization**
-Same API call using seperate homne and away table :
+Same API call using seperate home and away table :
 - Required tables: Single table lookup from player_season_summary
 - Response time: <500ms
 - Database load: Minimal CPU usage
@@ -150,11 +158,11 @@ The challenge in this case was airlines follow different versions of NDC. The ai
 
 | Metric | Result | Description |
 |--------|---------|-------------|
-| **Version Support** | `8+ versions` | Concurrent NDC version support |
-| **Migration Time** | `1 day` | Time to add new version support |
+| **Version Support** | `10+ versions` | Concurrent NDC version support |
+| **Migration Time** | `Less than 1 day` | Time to add new version support |
 | **Zero Downtime** | `✓` | No service interruption for updates |
 | **Client Compatibility** | `100%` | All client versions supported |
-| **Business Gains** | Better support for multiple clients | Increasing potential customers |
+| **Business Gains** | `Better support for multiple clients` | Increased potential customers |
 
 ---
 
