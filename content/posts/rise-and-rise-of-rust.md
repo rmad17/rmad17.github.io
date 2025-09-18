@@ -1,5 +1,5 @@
 +++
-title = 'Rise and Rise of Rust: How a Systems Language Became the Foundation of Modern Software'
+title = 'Rise and Rise of Rust'
 date = 2025-09-11T12:53:54+05:30
 draft = true
 +++
