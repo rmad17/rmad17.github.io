@@ -1,7 +1,11 @@
 +++
 title = 'Rise and Rise of Rust'
-date = 2025-09-11T12:53:54+05:30
-draft = true
+date = 2025-09-18T12:53:54+05:30
+draft = false
+cover.image = '../../riseofrust.png'
+categories = ["rust", "systems-programming", "language", "c++"]
+disqus_url = 'https://souravbasu.xyz/posts/rise-and-rise-of-rust/'
+disqus_identifier = '2025-09-18T01:00:28+05:30'
 +++
 
 ## The Quiet Beginning and the First Ripples
@@ -134,7 +138,7 @@ Consider alternatives when:
 
 ### The 2026-2030 Trajectory
 
-As we approach 2025, we can expect Rust to further penetrate industries that rely on performance, security, and reliability—like finance, automotive, aerospace, and healthcare. Several trends are converging to accelerate Rust adoption:
+As we approach 2026, we can expect Rust to further penetrate industries that rely on performance, security, and reliability—like finance, automotive, aerospace, and healthcare. Several trends are converging to accelerate Rust adoption:
 
 **AI and Machine Learning**: While Python dominates AI research, Rust is becoming the language of choice for production inference engines. Teams prototype in Python, then deploy with Rust. Libraries like Candle and Burn are making Rust-native ML more accessible.
 
