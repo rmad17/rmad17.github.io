@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-11T12:53:54+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/rise-and-rise-of-rust/</loc>
+    <lastmod>2025-09-11T12:53:54+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-11T12:53:54+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/api/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
@@ -23,16 +32,10 @@
     <loc>http://localhost:1313/categories/database-design/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/product/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/scaling/</loc>
-    <lastmod>2025-09-06T01:00:28+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-06T01:00:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/system-design/</loc>
