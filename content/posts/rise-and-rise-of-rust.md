@@ -26,7 +26,7 @@ The Linux kernel, the holy grail of systems programming, accepted Rust as its se
 
 Fast forward to 2025, and Rust's adoption has reached a tipping point. According to JetBrains' State of Developer Ecosystem Survey in 2024, an estimated 2,267,000 developers used Rust in a span of 12 months, with 709,000 identifying Rust as their primary language. This isn't just growth—it's an explosion.
 
-For the ninth year in a row, the 2024 Stack Overflow Developer Survey named Rust the language that most developers used and want to use again, with an 83% admiration rate. But beyond developer satisfaction, the real story is in production deployment. Commercial Rust usage exploded by 68.75% between 2021-2024, with tech giants not just using Rust, but betting their future on it.
+For the ninth year in a row, the 2024 Stack Overflow Developer Survey named Rust the language that developers admired most, with an 83% admiration rate. But beyond developer satisfaction, the real story is in production deployment. Commercial Rust usage exploded by 68.75% between 2021-2024, with tech giants not just using Rust, but betting their future on it.
 
 Since adopting Rust for Android, Google has cut memory vulnerabilities from 223 in 2019 to under 50 in 2024—a 68% drop. Amazon's Firecracker, the microVM technology behind AWS Lambda, is written entirely in Rust, handling millions of serverless function invocations. Meta added Rust as an officially supported server-side language alongside C++ and Python.
 
