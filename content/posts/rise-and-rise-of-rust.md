@@ -1,10 +1,8 @@
 +++
-title = 'Rise and Rise of Rust'
+title = 'Rise and Rise of Rust: How a Systems Language Became the Foundation of Modern Software'
 date = 2025-09-11T12:53:54+05:30
 draft = true
 +++
-
-# The Rise and Rise of Rust: How a Systems Language Became the Foundation of Modern Software
 
 ## The Quiet Beginning and the First Ripples
 
