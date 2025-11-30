@@ -1,7 +1,8 @@
 baseURL: "https://souravbasu.xyz/"
 title: "Svādhyāya"
-paginate: 5
 theme: PaperMod
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: true
