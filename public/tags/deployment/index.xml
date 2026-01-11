@@ -2,32 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Deployment on Svādhyāya</title>
-    <link>http://localhost:1313/tags/deployment/</link>
+    <link>https://souravbasu.xyz/tags/deployment/</link>
     <description>Recent content in Deployment on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 10 May 2024 00:06:26 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://souravbasu.xyz/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
-      <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
+      <link>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
-      <description>In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non exhaustive common list of ways to deploy to cloud.
-In a single VM instance. For eg. Droplet(Digital Ocean), EC2(AWS), Compute Engine(GCP), etc. In one or more VM instances with autoscaling. Not all cloud providers currently support this. AWS, GCP and Azure currently does it.</description>
+      <guid>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
+      <description>&lt;p&gt;In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non
+exhaustive common list of ways to deploy to cloud.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In a single VM instance. For eg. Droplet(Digital Ocean), EC2(AWS), Compute Engine(GCP), etc.&lt;/li&gt;
+&lt;li&gt;In one or more VM instances with autoscaling. Not all cloud providers currently support this. AWS, GCP and Azure currently does it.&lt;/li&gt;
+&lt;li&gt;Managed Kubernetes Service (Supported by most common coud service providers) - Kubernetes is a way to deploy docker containers as seperate services. This is an extremely popular
+option for microservices architecture.&lt;/li&gt;
+&lt;li&gt;Elastic Container Service - A proprietary service from AWS which is similar to Kubernetes but much less complicated.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For our use case we will be using option 2 - an Auto Scaling Group in AWS to show how the deployment should be done. AutoScaling Groups will cover most common scenarios
+as well as be cost efficient. We will be using AWS Console to setup the AutoScalingGroup and the focus will be only to how to get the setup up and working. Aspects like security, optimal scalability is beyond the scope of this article.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Application Deployment Checklist</title>
-      <link>http://localhost:1313/posts/application-deployment-checklist/</link>
+      <link>https://souravbasu.xyz/posts/application-deployment-checklist/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>http://localhost:1313/posts/application-deployment-checklist/</guid>
-      <description>Your app is built and you need to deploy it. What Next? Read On...
-Before we deploy applications we need to follow a set of process to ensure our application stack is prepared for any expected or unexpected events. Over the years I have experienced these scenarios and I have created a set of my personal checklists which allow me to quickly check that my application has all the requirements for recovering from potential pitfalls.</description>
+      <guid>https://souravbasu.xyz/posts/application-deployment-checklist/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Your app is built and you need to deploy it. What Next? Read On...&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Before we deploy applications we need to follow a set of process to ensure our application stack is prepared for any expected or unexpected events.
+Over the years I have experienced these scenarios and I have created a set of my personal checklists which allow me to quickly check
+that my application has all the requirements for recovering from potential pitfalls. This article is about sharing the same.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

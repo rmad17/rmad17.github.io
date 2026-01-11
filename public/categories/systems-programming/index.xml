@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Systems-Programming on Svādhyāya</title>
-    <link>http://localhost:1313/categories/systems-programming/</link>
+    <link>https://souravbasu.xyz/categories/systems-programming/</link>
     <description>Recent content in Systems-Programming on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 18 Sep 2025 12:53:54 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/systems-programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://souravbasu.xyz/categories/systems-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rise and Rise of Rust</title>
-      <link>http://localhost:1313/posts/rise-and-rise-of-rust/</link>
+      <link>https://souravbasu.xyz/posts/rise-and-rise-of-rust/</link>
       <pubDate>Thu, 18 Sep 2025 12:53:54 +0530</pubDate>
-      <guid>http://localhost:1313/posts/rise-and-rise-of-rust/</guid>
-      <description>The Quiet Beginning and the First Ripples In 2010, a Mozilla researcher named Graydon Hoare began working on a personal project born from frustration—a stuck elevator had triggered a software failure that could have been prevented with better memory management. This moment of annoyance would eventually give birth to Rust, a language that would fundamentally challenge how we think about systems programming.
-For its first few years, Rust remained largely within Mozilla&amp;rsquo;s walls, quietly evolving through rapid iterations.</description>
+      <guid>https://souravbasu.xyz/posts/rise-and-rise-of-rust/</guid>
+      <description>&lt;h2 id=&#34;the-quiet-beginning-and-the-first-ripples&#34;&gt;The Quiet Beginning and the First Ripples&lt;/h2&gt;
+&lt;p&gt;In 2010, a Mozilla researcher named Graydon Hoare began working on a personal project born from frustration—a stuck elevator had triggered a software failure that could have been prevented with better memory management. This moment of annoyance would eventually give birth to Rust, a language that would fundamentally challenge how we think about systems programming.&lt;/p&gt;
+&lt;p&gt;For its first few years, Rust remained largely within Mozilla&amp;rsquo;s walls, quietly evolving through rapid iterations. The language reached its 1.0 stable release in May 2015, marking the beginning of its public journey. But it wasn&amp;rsquo;t until 2017-2018 that the first significant impacts began to show. &lt;a href=&#34;https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum/&#34;&gt;Firefox&amp;rsquo;s Quantum release in 2017, which incorporated Rust components for CSS parsing and rendering&lt;/a&gt;, demonstrated that Rust could deliver on its promises at scale—offering both memory safety and performance that matched or exceeded C++.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

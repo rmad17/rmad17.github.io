@@ -2,23 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Product on Svādhyāya</title>
-    <link>http://localhost:1313/tags/product/</link>
+    <link>https://souravbasu.xyz/tags/product/</link>
     <description>Recent content in Product on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Sep 2025 01:00:28 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://souravbasu.xyz/tags/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database Design for Products</title>
-      <link>http://localhost:1313/posts/database-design/</link>
+      <link>https://souravbasu.xyz/posts/database-design/</link>
       <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
-      <guid>http://localhost:1313/posts/database-design/</guid>
-      <description>Database Design: A Product-First Approach to Building Scalable Systems Over the years wrestling with database architectures I&amp;rsquo;ve learned that the most elegant technical solution isn&amp;rsquo;t always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I&amp;rsquo;ve witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.</description>
+      <guid>https://souravbasu.xyz/posts/database-design/</guid>
+      <description>&lt;h1 id=&#34;database-design-a-product-first-approach-to-building-scalable-systems&#34;&gt;Database Design: A Product-First Approach to Building Scalable Systems&lt;/h1&gt;
+&lt;p&gt;Over the years wrestling with database architectures I&amp;rsquo;ve learned that the most elegant technical solution isn&amp;rsquo;t always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I&amp;rsquo;ve witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.
+This article distills hard-won lessons from building databases for fantasy sports platforms that needed to handle 100x traffic spikes during Premier League matches, airline systems that couldn&amp;rsquo;t afford a single booking failure, and financial systems where a single data inconsistency could trigger regulatory audits. The fantasy platform that once struggled with Saturday afternoon traffic surges now gracefully handles millions of users checking their teams during Champions League nights. The airline system processes complex multi-leg journeys without breaking a sweat. Each project taught me something different about the gap between textbook database design and production reality.
+What changed wasn&amp;rsquo;t the technology—it was the approach. I stopped designing databases for technical perfection and started designing them for the products they serve. This shift in perspective has been the difference between systems that merely function and systems that excel under pressure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
