@@ -9,6 +9,7 @@ cover.hidden = false
 categories = ["tech", "database", "database-design", "system-design"]
 disqus_url = 'https://souravbasu.xyz/posts/database-design/'
 disqus_identifier = '2025-09-06T01:00:28+05:30'
+ignoreLogs = ['warning-goldmark-raw-html']
 +++
 
 # Database Design: A Product-First Approach to Building Scalable Systems

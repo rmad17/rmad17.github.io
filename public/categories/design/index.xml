@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Design on Svādhyāya</title>
-    <link>https://souravbasu.xyz/categories/design/</link>
+    <link>http://localhost:1313/categories/design/</link>
     <description>Recent content in Design on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Jan 2026 03:36:54 +0530</lastBuildDate>
-    <atom:link href="https://souravbasu.xyz/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Fault Tolerant Systems</title>
-      <link>https://souravbasu.xyz/posts/building-fault-tolerant-systems/</link>
+      <link>http://localhost:1313/posts/building-fault-tolerant-systems/</link>
       <pubDate>Wed, 07 Jan 2026 03:36:54 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/building-fault-tolerant-systems/</guid>
-      <description>&lt;h1 id=&#34;building-fault-tolerant-systems-lessons-from-a-production-outage&#34;&gt;Building Fault-Tolerant Systems: Lessons from a Production Outage&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <guid>http://localhost:1313/posts/building-fault-tolerant-systems/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;It was 12 PM on a weekday - our peak traffic hour. I was one of the three engineers at a small fintech startup. Suddenly, our entire platform went dark. No metrics, no logs, no alerts - just angry customers and a silent monitoring dashboard. We were in limbo and no idea what failed. After 45 minutes of blind debugging and a full system restart, we were back online. That day taught me that fault tolerance isn&amp;rsquo;t luxury engineering - it&amp;rsquo;s survival. We had no error tracking, no observability, no automated recovery - nothing.&lt;/p&gt;</description>
     </item>
   </channel>

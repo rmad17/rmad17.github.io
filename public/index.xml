@@ -2,40 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Svādhyāya</title>
-    <link>https://souravbasu.xyz/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Jan 2026 03:36:54 +0530</lastBuildDate>
-    <atom:link href="https://souravbasu.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Fault Tolerant Systems</title>
-      <link>https://souravbasu.xyz/posts/building-fault-tolerant-systems/</link>
+      <link>http://localhost:1313/posts/building-fault-tolerant-systems/</link>
       <pubDate>Wed, 07 Jan 2026 03:36:54 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/building-fault-tolerant-systems/</guid>
-      <description>&lt;h1 id=&#34;building-fault-tolerant-systems-lessons-from-a-production-outage&#34;&gt;Building Fault-Tolerant Systems: Lessons from a Production Outage&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <guid>http://localhost:1313/posts/building-fault-tolerant-systems/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;It was 12 PM on a weekday - our peak traffic hour. I was one of the three engineers at a small fintech startup. Suddenly, our entire platform went dark. No metrics, no logs, no alerts - just angry customers and a silent monitoring dashboard. We were in limbo and no idea what failed. After 45 minutes of blind debugging and a full system restart, we were back online. That day taught me that fault tolerance isn&amp;rsquo;t luxury engineering - it&amp;rsquo;s survival. We had no error tracking, no observability, no automated recovery - nothing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rise and Rise of Rust</title>
-      <link>https://souravbasu.xyz/posts/rise-and-rise-of-rust/</link>
+      <link>http://localhost:1313/posts/rise-and-rise-of-rust/</link>
       <pubDate>Thu, 18 Sep 2025 12:53:54 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/rise-and-rise-of-rust/</guid>
+      <guid>http://localhost:1313/posts/rise-and-rise-of-rust/</guid>
       <description>&lt;h2 id=&#34;the-quiet-beginning-and-the-first-ripples&#34;&gt;The Quiet Beginning and the First Ripples&lt;/h2&gt;
 &lt;p&gt;In 2010, a Mozilla researcher named Graydon Hoare began working on a personal project born from frustration—a stuck elevator had triggered a software failure that could have been prevented with better memory management. This moment of annoyance would eventually give birth to Rust, a language that would fundamentally challenge how we think about systems programming.&lt;/p&gt;
 &lt;p&gt;For its first few years, Rust remained largely within Mozilla&amp;rsquo;s walls, quietly evolving through rapid iterations. The language reached its 1.0 stable release in May 2015, marking the beginning of its public journey. But it wasn&amp;rsquo;t until 2017-2018 that the first significant impacts began to show. &lt;a href=&#34;https://blog.rust-lang.org/2017/11/14/Fearless-Concurrency-In-Firefox-Quantum/&#34;&gt;Firefox&amp;rsquo;s Quantum release in 2017, which incorporated Rust components for CSS parsing and rendering&lt;/a&gt;, demonstrated that Rust could deliver on its promises at scale—offering both memory safety and performance that matched or exceeded C++.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Database Design for Products</title>
-      <link>https://souravbasu.xyz/posts/database-design/</link>
+      <link>http://localhost:1313/posts/database-design/</link>
       <pubDate>Sat, 06 Sep 2025 01:00:28 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/database-design/</guid>
+      <guid>http://localhost:1313/posts/database-design/</guid>
       <description>&lt;h1 id=&#34;database-design-a-product-first-approach-to-building-scalable-systems&#34;&gt;Database Design: A Product-First Approach to Building Scalable Systems&lt;/h1&gt;
 &lt;p&gt;Over the years wrestling with database architectures I&amp;rsquo;ve learned that the most elegant technical solution isn&amp;rsquo;t always the right one. Database design is often viewed through the lens of technical optimization—normalized tables, efficient indexes, and query performance. While these technical aspects are crucial, the database disasters I&amp;rsquo;ve witnessed taught me that the most successful architectures emerge from a deep understanding of the product they serve.
 This article distills hard-won lessons from building databases for fantasy sports platforms that needed to handle 100x traffic spikes during Premier League matches, airline systems that couldn&amp;rsquo;t afford a single booking failure, and financial systems where a single data inconsistency could trigger regulatory audits. The fantasy platform that once struggled with Saturday afternoon traffic surges now gracefully handles millions of users checking their teams during Champions League nights. The airline system processes complex multi-leg journeys without breaking a sweat. Each project taught me something different about the gap between textbook database design and production reality.
@@ -43,26 +42,26 @@ What changed wasn&amp;rsquo;t the technology—it was the approach. I stopped de
     </item>
     <item>
       <title>Neovim With Lua</title>
-      <link>https://souravbasu.xyz/posts/neovim-with-lua/</link>
+      <link>http://localhost:1313/posts/neovim-with-lua/</link>
       <pubDate>Tue, 27 May 2025 19:25:16 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/neovim-with-lua/</guid>
+      <guid>http://localhost:1313/posts/neovim-with-lua/</guid>
       <description>&lt;h2 id=&#34;the-backstory&#34;&gt;The Backstory&lt;/h2&gt;
 &lt;p&gt;I have been a vim user since a decade back and switched to using neovim more than five years ago. Anyone familiar with the vim/neovim ecosystem would know how much it has evolved in the last few years. I had started with using &lt;code&gt;Vundle&lt;/code&gt; for managing my plugins, moving to &lt;code&gt;Plug&lt;/code&gt; at a later point. All this while my configuration was a simple vim script (&lt;code&gt;init.vim&lt;/code&gt;) where my configurations were neatly organized in less than ~200 lines. For sometime I have been reading about the craze &amp;ndash;  that is neovim lua configurations and after contemplating several times if the result will be worth the effort, finally decided to join in. What followed was a weeks of diving deep into lua script and relearning a lot of processes, I finally got my config to be close to how I wanted it to be and this is a story of that journey.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google Login Using Go and Gin</title>
-      <link>https://souravbasu.xyz/posts/google-login-using-go-and-gin/</link>
+      <link>http://localhost:1313/posts/google-login-using-go-and-gin/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/google-login-using-go-and-gin/</guid>
+      <guid>http://localhost:1313/posts/google-login-using-go-and-gin/</guid>
       <description>&lt;p&gt;In this blog we will learn about how to get started with Golang and create a auth with Google Login.
 We will be using the &lt;a href=&#34;https://gin-gonic.com&#34;&gt;Gin&lt;/a&gt; and gorm ORM. During my initial uses of Gin I felt for new users the documentation is not friendly enough, hence I decided to write this article.
 If you are coming from a Python/Ruby world Gin is &lt;strong&gt;NOT&lt;/strong&gt; like Django or Rails. Rather, its more like Flask and Sinatra. This is how the framework folks defines Gin:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
-      <link>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
+      <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
+      <guid>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
       <description>&lt;p&gt;In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non
 exhaustive common list of ways to deploy to cloud.&lt;/p&gt;
 &lt;ol&gt;
@@ -77,9 +76,9 @@ as well as be cost efficient. We will be using AWS Console to setup the AutoScal
     </item>
     <item>
       <title>Application Deployment Checklist</title>
-      <link>https://souravbasu.xyz/posts/application-deployment-checklist/</link>
+      <link>http://localhost:1313/posts/application-deployment-checklist/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/application-deployment-checklist/</guid>
+      <guid>http://localhost:1313/posts/application-deployment-checklist/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;Your app is built and you need to deploy it. What Next? Read On...&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

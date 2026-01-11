@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Devops on Svādhyāya</title>
-    <link>https://souravbasu.xyz/categories/devops/</link>
+    <link>http://localhost:1313/categories/devops/</link>
     <description>Recent content in Devops on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 10 May 2024 00:06:26 +0530</lastBuildDate>
-    <atom:link href="https://souravbasu.xyz/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
-      <link>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
+      <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
+      <guid>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
       <description>&lt;p&gt;In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non
 exhaustive common list of ways to deploy to cloud.&lt;/p&gt;
 &lt;ol&gt;
@@ -32,9 +32,9 @@ as well as be cost efficient. We will be using AWS Console to setup the AutoScal
     </item>
     <item>
       <title>Application Deployment Checklist</title>
-      <link>https://souravbasu.xyz/posts/application-deployment-checklist/</link>
+      <link>http://localhost:1313/posts/application-deployment-checklist/</link>
       <pubDate>Sat, 20 Apr 2024 10:18:04 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/application-deployment-checklist/</guid>
+      <guid>http://localhost:1313/posts/application-deployment-checklist/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;Your app is built and you need to deploy it. What Next? Read On...&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

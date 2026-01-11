@@ -8,8 +8,6 @@ disqus_url = 'https://souravbasu.xyz/posts/building-fault-tolerant-systems/'
 disqus_identifier = '2026-01-07T03:36:54+05:30'
 +++
 
-# Building Fault-Tolerant Systems: Lessons from a Production Outage
-
 ## Introduction
 
 It was 12 PM on a weekday - our peak traffic hour. I was one of the three engineers at a small fintech startup. Suddenly, our entire platform went dark. No metrics, no logs, no alerts - just angry customers and a silent monitoring dashboard. We were in limbo and no idea what failed. After 45 minutes of blind debugging and a full system restart, we were back online. That day taught me that fault tolerance isn't luxury engineering - it's survival. We had no error tracking, no observability, no automated recovery - nothing.

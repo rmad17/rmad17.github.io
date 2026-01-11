@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Beginner Friendly on Svādhyāya</title>
-    <link>https://souravbasu.xyz/tags/beginner-friendly/</link>
+    <link>http://localhost:1313/tags/beginner-friendly/</link>
     <description>Recent content in Beginner Friendly on Svādhyāya</description>
     <image>
       <title>Svādhyāya</title>
-      <url>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://souravbasu.xyz/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 30 Jul 2024 22:48:24 +0530</lastBuildDate>
-    <atom:link href="https://souravbasu.xyz/tags/beginner-friendly/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/beginner-friendly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Login Using Go and Gin</title>
-      <link>https://souravbasu.xyz/posts/google-login-using-go-and-gin/</link>
+      <link>http://localhost:1313/posts/google-login-using-go-and-gin/</link>
       <pubDate>Tue, 30 Jul 2024 22:48:24 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/google-login-using-go-and-gin/</guid>
+      <guid>http://localhost:1313/posts/google-login-using-go-and-gin/</guid>
       <description>&lt;p&gt;In this blog we will learn about how to get started with Golang and create a auth with Google Login.
 We will be using the &lt;a href=&#34;https://gin-gonic.com&#34;&gt;Gin&lt;/a&gt; and gorm ORM. During my initial uses of Gin I felt for new users the documentation is not friendly enough, hence I decided to write this article.
 If you are coming from a Python/Ruby world Gin is &lt;strong&gt;NOT&lt;/strong&gt; like Django or Rails. Rather, its more like Flask and Sinatra. This is how the framework folks defines Gin:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deploy Your Application With AWS AutoScalingGroup</title>
-      <link>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
+      <link>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</link>
       <pubDate>Fri, 10 May 2024 00:06:26 +0530</pubDate>
-      <guid>https://souravbasu.xyz/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
+      <guid>http://localhost:1313/posts/deploy-your-application-with-aws-autoscalinggroup/</guid>
       <description>&lt;p&gt;In my previous post I wrote about process of pre deployment. A common question was about the deployment process itself. And the idea of this blog was born. The following is a non
 exhaustive common list of ways to deploy to cloud.&lt;/p&gt;
 &lt;ol&gt;
